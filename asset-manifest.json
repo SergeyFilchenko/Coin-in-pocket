@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SergeyFilchenko/Coin-in-pocket.git/static/css/main.7acaea2f.css",
+    "main.js": "/SergeyFilchenko/Coin-in-pocket.git/static/js/main.07d3183d.js",
+    "index.html": "/SergeyFilchenko/Coin-in-pocket.git/index.html",
+    "main.7acaea2f.css.map": "/SergeyFilchenko/Coin-in-pocket.git/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/SergeyFilchenko/Coin-in-pocket.git/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
