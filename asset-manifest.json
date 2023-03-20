@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Coin-in-pocket.git/static/css/main.7acaea2f.css",
-    "main.js": "/Coin-in-pocket.git/static/js/main.6b02f919.js",
-    "index.html": "/Coin-in-pocket.git/index.html",
-    "main.7acaea2f.css.map": "/Coin-in-pocket.git/static/css/main.7acaea2f.css.map",
-    "main.6b02f919.js.map": "/Coin-in-pocket.git/static/js/main.6b02f919.js.map"
+    "main.css": "/Coin-in-pocket/static/css/main.7acaea2f.css",
+    "main.js": "/Coin-in-pocket/static/js/main.6b02f919.js",
+    "index.html": "/Coin-in-pocket/index.html",
+    "main.7acaea2f.css.map": "/Coin-in-pocket/static/css/main.7acaea2f.css.map",
+    "main.6b02f919.js.map": "/Coin-in-pocket/static/js/main.6b02f919.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
