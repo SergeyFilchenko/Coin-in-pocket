@@ -1,4 +1,5 @@
-import Header from './Header/Header';
+import './index.css';
+import Header from './components/Header/Header';
 
 export const App = () => {
   return (
