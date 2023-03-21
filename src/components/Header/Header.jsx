@@ -12,6 +12,8 @@ import {
   HeaderSectionTopRightDescr,
   HeaderSectionTopRightBtn,
   HeaderSectionTopRightLogo,
+  HeaderSectionBottomList,
+  HeaderSectionBottomItem,
 } from './Header.styled';
 
 export default function Header() {
@@ -27,7 +29,7 @@ export default function Header() {
         </HeaderSectionTopLeft>
         <HeaderSectionTopRight>
           <HeaderSectionTopRightDescr>
-            +3(067) 115-50-95
+            +38(067) 115-50-95
           </HeaderSectionTopRightDescr>
           <HeaderSectionTopRightBtn>
             Особистий кабінет{' '}
@@ -36,15 +38,17 @@ export default function Header() {
         </HeaderSectionTopRight>
       </HeaderSectionTop>
       <HeaderSectionBottom>
-        <ul>
-          <li>Про компанію</li>
-          <li>Послуги</li>
-          <li>Тарифи</li>
-          <li>Способи погашення</li>
-          <li>Документи</li>
-          <li>Питання та відповіді</li>
-          <li>Контакти</li>
-        </ul>
+        <HeaderSectionBottomList>
+          <HeaderSectionBottomItem>Про компанію</HeaderSectionBottomItem>
+          <HeaderSectionBottomItem>Послуги</HeaderSectionBottomItem>
+          <HeaderSectionBottomItem>Тарифи</HeaderSectionBottomItem>
+          <HeaderSectionBottomItem>Способи погашення</HeaderSectionBottomItem>
+          <HeaderSectionBottomItem>Документи</HeaderSectionBottomItem>
+          <HeaderSectionBottomItem>
+            Питання та відповіді
+          </HeaderSectionBottomItem>
+          <HeaderSectionBottomItem>Контакти</HeaderSectionBottomItem>
+        </HeaderSectionBottomList>
       </HeaderSectionBottom>
     </HeaderSection>
   );
