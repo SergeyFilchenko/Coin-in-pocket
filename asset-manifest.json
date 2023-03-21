@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Coin-in-pocket/static/css/main.5779018f.css",
-    "main.js": "/Coin-in-pocket/static/js/main.4ac79dcd.js",
+    "main.js": "/Coin-in-pocket/static/js/main.c86daa78.js",
     "index.html": "/Coin-in-pocket/index.html",
     "main.5779018f.css.map": "/Coin-in-pocket/static/css/main.5779018f.css.map",
-    "main.4ac79dcd.js.map": "/Coin-in-pocket/static/js/main.4ac79dcd.js.map"
+    "main.c86daa78.js.map": "/Coin-in-pocket/static/js/main.c86daa78.js.map"
   },
   "entrypoints": [
     "static/css/main.5779018f.css",
-    "static/js/main.4ac79dcd.js"
+    "static/js/main.c86daa78.js"
   ]
 }
