@@ -44,6 +44,7 @@ export const HeaderSectionTopRightBtn = styled.button`
   width: 222px;
   height: 48px;
   border-radius: 8px;
+  font-weight: bold;
   background: #ffffff;
   box-shadow: 0px 0px 2px #a6a6da;
   color: #57b18a;
