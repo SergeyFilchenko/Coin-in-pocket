@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Coin-in-pocket/static/css/main.aef33173.css",
-    "main.js": "/Coin-in-pocket/static/js/main.5751d825.js",
+    "main.css": "/Coin-in-pocket/static/css/main.b32a33ed.css",
+    "main.js": "/Coin-in-pocket/static/js/main.6b03c2f7.js",
+    "static/media/bussiness-people-working-team-office-removebg-preview 2.png": "/Coin-in-pocket/static/media/bussiness-people-working-team-office-removebg-preview 2.cac5012e8de7d0bf9cf3.png",
     "index.html": "/Coin-in-pocket/index.html",
-    "main.aef33173.css.map": "/Coin-in-pocket/static/css/main.aef33173.css.map",
-    "main.5751d825.js.map": "/Coin-in-pocket/static/js/main.5751d825.js.map"
+    "main.b32a33ed.css.map": "/Coin-in-pocket/static/css/main.b32a33ed.css.map",
+    "main.6b03c2f7.js.map": "/Coin-in-pocket/static/js/main.6b03c2f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.aef33173.css",
-    "static/js/main.5751d825.js"
+    "static/css/main.b32a33ed.css",
+    "static/js/main.6b03c2f7.js"
   ]
 }
