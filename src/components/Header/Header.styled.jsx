@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 export const HeaderSection = styled.div`
-  width: 1440px;
+  min-width: 1440px;
 `;
 
 export const HeaderSectionTop = styled.div`
@@ -62,10 +62,11 @@ export const HeaderSectionBottomList = styled.ul`
   display: flex;
   justify-content: center;
 `;
-export const HeaderSectionBottomItem = styled.li`
+export const HeaderSectionBottomItem = styled.a`
   font-size: 18px;
   color: #7f7e83;
   :not(:last-child) {
     margin-right: 62px;
   }
+  cursor: pointer;
 `;
