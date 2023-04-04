@@ -1,5 +1,6 @@
 import people from '..//..//images/bussiness-people-working-team-office-removebg-preview 2.png';
 import ellips from '..//..//images/Ellipse 13.png';
+import Range from './Range';
 
 import {
   AboutSection,
@@ -28,6 +29,10 @@ export default function About() {
         <Elippse src={ellips} alt="ellipse"></Elippse>
         <AboutMainImg src={people} alt="people" />
       </AboutMain>
+
+      <div>
+        <Range />
+      </div>
     </AboutSection>
   );
 }
