@@ -1,6 +1,7 @@
 import people from '..//..//images/bussiness-people-working-team-office-removebg-preview 2.png';
 import ellips from '..//..//images/Ellipse 13.png';
-import Range from './Range';
+// import Range from './Range';
+import Card from './Cards';
 
 import {
   AboutSection,
@@ -31,7 +32,7 @@ export default function About() {
       </AboutMain>
 
       <div>
-        <Range />
+        <Card />
       </div>
     </AboutSection>
   );
