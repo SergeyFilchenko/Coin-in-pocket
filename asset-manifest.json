@@ -1,14 +1,24 @@
 {
   "files": {
     "main.css": "/Coin-in-pocket/static/css/main.b32a33ed.css",
-    "main.js": "/Coin-in-pocket/static/js/main.d8e2fe52.js",
+    "main.js": "/Coin-in-pocket/static/js/main.23d7ccbb.js",
     "static/media/bussiness-people-working-team-office-removebg-preview 2.png": "/Coin-in-pocket/static/media/bussiness-people-working-team-office-removebg-preview 2.cac5012e8de7d0bf9cf3.png",
+    "static/media/c5.png": "/Coin-in-pocket/static/media/c5.ca609a610cffbaf22de3.png",
+    "static/media/c6-1.png": "/Coin-in-pocket/static/media/c6-1.90a3a3aefc0578ba1fa2.png",
+    "static/media/c7.png": "/Coin-in-pocket/static/media/c7.b0c7c99c502831988cfb.png",
+    "static/media/c3-1.png": "/Coin-in-pocket/static/media/c3-1.d81772281622f6ff7e00.png",
+    "static/media/C1.png": "/Coin-in-pocket/static/media/C1.e6b8dc79874da8741ca7.png",
+    "static/media/c6.png": "/Coin-in-pocket/static/media/c6.79fef86a984d77ca2fb4.png",
+    "static/media/c3.png": "/Coin-in-pocket/static/media/c3.e913226234632aeafb4b.png",
+    "static/media/c4.png": "/Coin-in-pocket/static/media/c4.431719f8c43e5df33443.png",
+    "static/media/c2.png": "/Coin-in-pocket/static/media/c2.5b2964108bcc98ae9192.png",
+    "static/media/c8.png": "/Coin-in-pocket/static/media/c8.7ebed71679054ae1138f.png",
     "index.html": "/Coin-in-pocket/index.html",
     "main.b32a33ed.css.map": "/Coin-in-pocket/static/css/main.b32a33ed.css.map",
-    "main.d8e2fe52.js.map": "/Coin-in-pocket/static/js/main.d8e2fe52.js.map"
+    "main.23d7ccbb.js.map": "/Coin-in-pocket/static/js/main.23d7ccbb.js.map"
   },
   "entrypoints": [
     "static/css/main.b32a33ed.css",
-    "static/js/main.d8e2fe52.js"
+    "static/js/main.23d7ccbb.js"
   ]
 }
