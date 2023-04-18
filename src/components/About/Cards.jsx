@@ -42,42 +42,42 @@ export default function Card() {
             моментально через Google-гаманець або в будь-якому з 9 000 пунктів
             обслуговування
           </Description>
-          <img src={c3} alt="гроші"></img>
-          <img src={c31} alt="телефон"></img>
+          <Img1 src={c3} alt="гроші"></Img1>
+          <Img1 src={c31} alt="телефон"></Img1>
         </Card2>
         <Card1>
           <Description>
             Середній час обробки заявки - всього 7 хвилин.
           </Description>
-          <img src={c4} alt="годинник"></img>
+          <Img1 src={c4} alt="годинник"></Img1>
         </Card1>
         <Card1>
           <Description>
             Можливість продовжувати позику необмежену кількість разів
           </Description>
-          <img src={c5} alt="календар"></img>
+          <Img1 src={c5} alt="календар"></Img1>
         </Card1>
         <Card2>
           <Description>
             День зарплати ще не скоро? Ми можемо зачекати! Просто сплатіть
             відсотки за позикою, і він автоматично триватиме ще на 21 день
           </Description>
-          <img src={c6} alt="монетка"></img>
-          <img src={c61} alt="календарик"></img>
+          <Img1 src={c6} alt="монетка"></Img1>
+          <Img1 src={c61} alt="календарик"></Img1>
         </Card2>
         <Card1>
           <Description>
             ТОВ МКК «Креатив» працює дистанційно по всій Україні, тому отримання
             позики можливе будь-коли в будь-якому місці.
           </Description>
-          <img src={c7} alt="світ"></img>
+          <Img1 src={c7} alt="світ"></Img1>
         </Card1>
         <Card1>
           <Description>
             Максимально проста схема отримання та повернення позики без застави
             поручителів
           </Description>
-          <img src={c8} alt="окей"></img>
+          <Img1 src={c8} alt="окей"></Img1>
         </Card1>
       </CardHead>
     </CardSection>

@@ -16,6 +16,11 @@ export const Card1 = styled.li`
   border-radius: 16px;
   background: #ddefe8;
   margin: 12px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 `;
 export const Card2 = styled.li`
   width: 1128px;
