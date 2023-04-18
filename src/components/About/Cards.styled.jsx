@@ -14,7 +14,6 @@ export const Card1 = styled.li`
   width: 552px;
   height: 552px;
   border-radius: 16px;
-  background: #ddefe8;
   margin: 12px;
 
   display: flex;
@@ -35,10 +34,18 @@ export const Description = styled.p`
   font-weight: 500;
   font-size: 24px;
   line-height: 32px;
-
+  padding: 40px;
   color: #3f3e42;
+  text-align: center;
 `;
 export const Img1 = styled.img`
-  width: 352px;
-  height: 336px;
+  width: 337px;
+  height: 300px;
+  // margin-top: 40px;
+  border-radius: 16px;
 `;
+export const ImgCard = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
+export const SixCard = styled.span``;
