@@ -31,9 +31,7 @@ export default function About() {
         <AboutMainImg src={people} alt="people" />
       </AboutMain>
 
-      <div>
-        <Card />
-      </div>
+      <Card />
     </AboutSection>
   );
 }
