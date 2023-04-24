@@ -67,11 +67,7 @@ export default function Card() {
               День зарплати ще не скоро? Ми можемо зачекати! Просто сплатіть
               відсотки за позикою, і він автоматично триватиме ще на 21 день
             </Description>
-            <Img1
-              src={c6}
-              alt="монетка"
-              style={{ marginTop: '75px', marginLeft: '20px' }}
-            ></Img1>
+            <Img1 src={c6} alt="монетка" style={{ marginTop: '44px' }}></Img1>
           </SixCard>
           <Img1
             src={c61}
