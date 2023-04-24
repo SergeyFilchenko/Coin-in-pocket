@@ -1,39 +1,46 @@
 import {
   FooterSection,
   Container,
-  ListFirst,
-  ListSecond,
-  ListTheard,
-  ListFour,
+  Item,
+  Logo,
+  Btn,
+  Head,
+  List,
 } from './Footer.styled';
+import frame from '..//..//images/Frame 27.png';
 
 export default function Footer() {
   return (
     <FooterSection>
       <Container>
-        <ListFirst>
-          <h2>Монета в кишені</h2>
-          <p>+38(067) 115-50-95</p>
-          <p>info@MonetaVkisheni.com</p>
-          <button>Особистий кабінет</button>
-        </ListFirst>
-        <ListSecond>
-          <li>Про компанію</li>
-          <li>Послуги</li>
-          <li>Тарифи</li>
-          <li>Способи погашення</li>
-        </ListSecond>
-        <ListTheard>
-          <li>Правила надання позик</li>
-          <li>Свідоцтво МФО</li>
-          <li>Політика конфіденційності</li>
-        </ListTheard>
-        <ListFour>
-          <li>Зразок заяви на мікропозику</li>
-          <li>Список учасників</li>
-          <li>Відповіді на запитання</li>
-          <li>Контакти</li>
-        </ListFour>
+        <List>
+          <Head>
+            <Logo src={frame} alt="coin" />
+            Монета в кишені
+          </Head>
+          <Item>+38(067) 115-50-95</Item>
+          <Item>info@MonetaVkisheni.com</Item>
+          <Btn>Особистий кабінет</Btn>
+        </List>
+        <List>
+          <Item>
+            <a href=".#">Про компанію</a>
+          </Item>
+          <Item>Послуги</Item>
+          <Item>Тарифи</Item>
+          <Item>Способи погашення</Item>
+        </List>
+        <List>
+          <Item>Правила надання позик</Item>
+          <Item>Свідоцтво МФО</Item>
+          <Item>Політика конфіденційності</Item>
+        </List>
+        <List>
+          <Item>Зразок заяви на мікропозику</Item>
+          <Item>Список учасників</Item>
+          <Item>Відповіді на запитання</Item>
+          <Item>Контакти</Item>
+        </List>
       </Container>
     </FooterSection>
   );
