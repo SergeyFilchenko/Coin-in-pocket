@@ -24,6 +24,17 @@ color: #3F3E42;`
 
 // ПРОПОЗИЦІЇ
 
-export const OffersHeading = styled.h1`
+export const OffersList = styled.ul`
+display: flex;
+width: 360px;
+padding: 24px 24px 0px 24px;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+gap: 12px;
+`;
 
+export const OffersItem = styled.li`
+
+width: 360px;
 `;
