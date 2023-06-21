@@ -20,3 +20,10 @@ font-weight: 600;
 font-size: 68px;
 line-height: 82px;
 color: #3F3E42;`
+
+
+// ПРОПОЗИЦІЇ
+
+export const OffersHeading = styled.h1`
+
+`;
