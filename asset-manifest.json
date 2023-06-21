@@ -1,14 +1,18 @@
 {
   "files": {
     "main.css": "/Coin-in-pocket/static/css/main.cd267475.css",
-    "main.js": "/Coin-in-pocket/static/js/main.6c1e4f32.js",
+    "main.js": "/Coin-in-pocket/static/js/main.386a21b0.js",
     "static/media/image 19.png": "/Coin-in-pocket/static/media/image 19.e2486c54f2b750e4dcbb.png",
+    "static/media/img4.png": "/Coin-in-pocket/static/media/img4.6b4364be34b910be0095.png",
+    "static/media/img2.png": "/Coin-in-pocket/static/media/img2.2a8c91ee4740be24c9fe.png",
+    "static/media/img1.png": "/Coin-in-pocket/static/media/img1.073da6d98392eac4301c.png",
+    "static/media/img3.png": "/Coin-in-pocket/static/media/img3.997e95e23e363743d801.png",
     "index.html": "/Coin-in-pocket/index.html",
     "main.cd267475.css.map": "/Coin-in-pocket/static/css/main.cd267475.css.map",
-    "main.6c1e4f32.js.map": "/Coin-in-pocket/static/js/main.6c1e4f32.js.map"
+    "main.386a21b0.js.map": "/Coin-in-pocket/static/js/main.386a21b0.js.map"
   },
   "entrypoints": [
     "static/css/main.cd267475.css",
-    "static/js/main.6c1e4f32.js"
+    "static/js/main.386a21b0.js"
   ]
 }
