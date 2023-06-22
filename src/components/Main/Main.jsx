@@ -5,41 +5,46 @@ import im2 from '..//..//images/img2.png'
 import im3 from '..//..//images/img3.png'
 import im4 from '..//..//images/img4.png'
 
-import { Hero, HeroImage, HeroText, OffersItem, OffersList } from './Main.styled';
+import { Hero, HeroImage, HeroText, Offers,OffersTitles, OffersItem, OffersList, OffersBottomDiscr,OffersBottom, HeroTop, OffersDiscr, OffersBottomButton, OffersBottomTitle, OffersBottomList } from './Main.styled';
 
 export default function Main() {
   return (
     <div>
-      <div>
+      <HeroTop>
         <Hero>
           <HeroText>Швидкі позики на карту</HeroText>
           <img src={circle} alt="" />
           <HeroImage src={logo} alt="" />
         </Hero>
-      </div>
-      <div>
-        <h1>Спецпропозиції</h1>
+      </HeroTop>
+      <Offers>
+        <OffersTitles>Спецпропозиції</OffersTitles>
         <OffersList>
             <OffersItem style={{background: '#FFF2CB'}}>
-                <p>Перша позика без відсотків</p>
+                <OffersDiscr>Перша позика <br/> без відсотків</OffersDiscr>
                 <img src={im1} alt="" />
             </OffersItem>
             <OffersItem style={{background: '#DDEFE8'}}>
-                <p>Приведи друга та отримай знижену ставку</p>
+                <OffersDiscr
+                >Приведи друга та отримай <br/>знижену ставку</OffersDiscr>
                 <img src={im2} alt="" />
             </OffersItem>
             <OffersItem style={{background: '#FFECE5'}}>
-                <p>Друга позика при вгоді через ДІЯ без сплати комісії</p>
+                <OffersDiscr
+                >Друга позика при вході через ДІЯ без сплати комісії</OffersDiscr>
                 <img src={im3} alt="" />
             </OffersItem>
-            <OffersItem style={{background: '#E6E6FC;'}}>
-                <h2>Тут може бути Ваша реклама</h2>
-                <p></p>
-                <img src={im4} alt="" />
-                <button>Замовити рекламу</button>
-            </OffersItem>
-        </OffersList>
-      </div>
+            </OffersList>
+            <OffersBottom>
+              <OffersBottomList>
+              <OffersBottomTitle>Тут може бути Ваша реклама</OffersBottomTitle>
+              <OffersBottomDiscr>Для замовлення реклами, натисни Кнопку "Замовити рекламу"</OffersBottomDiscr>
+              <OffersBottomButton>Замовити рекламу</OffersBottomButton>
+              </OffersBottomList>
+                <img src={im4} alt="" />       
+            </OffersBottom>
+        
+      </Offers>
     </div>
   );
 }
