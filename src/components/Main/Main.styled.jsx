@@ -1,7 +1,6 @@
 import styled from 'styled-components';
-import logo from '..//..//images/Frame 384.png'
-import logo1 from '..//..//images/Frame 385.png'
-
+import logo from '..//..//images/Frame 384.png';
+import logo1 from '..//..//images/Frame 385.png';
 
 export const HeroTop = styled.div`
   margin: 100px 156px;
@@ -19,18 +18,16 @@ export const Hero = styled.div`
     height: 12px;
     flex-shrink: 0;
     border-radius: 99px;
-    background: #BCE0D0;
+    background: #bce0d0;
     bottom: 176px;
     left: 131px;
   }
-
 `;
 
 export const HeroImage = styled.img`
   position: absolute;
   right: 125px;
   top: 20px;
-  
 `;
 export const HeroText = styled.h1`
   font-family: 'IBM Plex Serif';
@@ -59,7 +56,6 @@ export const HeroText = styled.h1`
     bottom: 240px;
     left: 564px;
   }
-
 `;
 
 // ПРОПОЗИЦІЇ
@@ -91,13 +87,13 @@ export const OffersItem = styled.li`
 `;
 
 export const OffersDiscr = styled.p`
-text-align: center;
-color: #3F3E42;
-font-size: 24px;
-font-family: IBM Plex Sans;
-font-weight: 500;
-line-height: 32px;
-padding: 10px 0px 26px 0px;
+  text-align: center;
+  color: #3f3e42;
+  font-size: 24px;
+  font-family: IBM Plex Sans;
+  font-weight: 500;
+  line-height: 32px;
+  padding: 10px 0px 26px 0px;
 `;
 
 // OFFERS BOTTOM
@@ -111,35 +107,106 @@ export const OffersBottom = styled.div`
 `;
 
 export const OffersBottomTitle = styled.h2`
-color: #3F3E42;
-font-size: 36px;
-font-family: IBM Plex Serif;
-font-weight: 600;
-line-height: 44px;
+  color: #3f3e42;
+  font-size: 36px;
+  font-family: IBM Plex Serif;
+  font-weight: 600;
+  line-height: 44px;
 `;
 
 export const OffersBottomDiscr = styled.p`
-color: #57585F;
-font-size: 20px;
-font-family: IBM Plex Sans;
-line-height: 28px;
-margin-top: 20px;
-margin-bottom: 20px;
+  color: #57585f;
+  font-size: 20px;
+  font-family: IBM Plex Sans;
+  line-height: 28px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 `;
 export const OffersBottomList = styled.ul`
-display: flex;
-padding: 44px;
-flex-direction: column;
+  display: flex;
+  padding: 44px;
+  flex-direction: column;
 `;
 
 export const OffersBottomButton = styled.button`
+  display: flex;
+  padding: 7px 24px 9px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #57b18a;
+  color: white;
+  width: 300px;
+  height: 50px;
+`;
+
+// ЯК ЦЕ ПРАЦЮЄ
+
+export const WorkTitle = styled.h1`
+  color: #3f3e42;
+  font-size: 44px;
+  font-family: IBM Plex Serif;
+  font-weight: 600;
+  line-height: 52px;
+  margin-bottom: 32px;
+  margin-left: 115px;
+`;
+export const WorkButton = styled.button`
+border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 0px 2px 0px #A6A6DA;
+
+color: #57B18A;
+text-align: center;
+font-size: 18px;
+font-family: IBM Plex Sans;
+font-weight: 600;
+line-height: 24px;
+margin-top: 10px;
+`;
+
+export const WorkParagraph = styled.p`
+color: #3F3E42;
+
+font-size: 20px;
+font-family: IBM Plex Sans;
+font-weight: 600;
+line-height: 28px;
+text-align: center;
+`;
+
+export const WorkDigit = styled.p`
+color: #6F6FC4;
+font-size: 32px;
+font-family: IBM Plex Sans;
+font-weight: 500;
+line-height: 32px;
+`;
+
+export const WorkList = styled.ul`
+border-radius: 16px;
+background: #FFF;
+box-shadow: 0px 0px 2px 0px #A6A6DA;
+
+width: 360px;
+height: 240px;
+
+
+`;
+export const WorkContainer = styled.div`
+gap: 20px;
 display: flex;
-    padding: 7px 24px 9px 24px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    background: #57B18A;
-    color: white;
-    width: 300px;
-    height: 50px;
-    `;
+justify-content: center;
+`;
+
+export const WorkListItemTop = styled.li`
+display: flex;
+justify-content: space-between;
+padding: 25px;
+`;
+export const WorkListItemBot = styled.li`
+text-align: center;
+`
+export const WorkSection = styled.div`
+margin: 100px 156px
+`;
