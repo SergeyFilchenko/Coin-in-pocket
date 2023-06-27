@@ -173,6 +173,7 @@ font-family: IBM Plex Sans;
 font-weight: 600;
 line-height: 28px;
 text-align: center;
+padding: 10px;
 `;
 
 export const WorkDigit = styled.p`
