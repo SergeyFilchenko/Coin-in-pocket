@@ -7,6 +7,10 @@ import im4 from '..//..//images/img4.png';
 import im5 from '..//..//images/Icon1.png';
 import im6 from '..//..//images/Icon2.png';
 import im7 from '..//..//images/Icon3.png';
+import im8 from '..//..//images/Icon5.png';
+import im9 from '..//..//images/Icon6.png';
+import im10 from '..//..//images/Icon7.png';
+import im11 from '..//..//images/Icon8.png';
 import {
   Hero,
   HeroImage,
@@ -30,7 +34,13 @@ import {
   WorkContainer,
   WorkListItemTop,
   WorkSection,
-  WorkListItemBot
+  WorkListItemBot,
+  Advantages,
+  AdvantagesTitle,
+  AdvantagesList,
+  AdvantagesItem,
+  AdvantagesDeskr,
+  AdvantagesLogo
 } from './Main.styled';
 
 export default function Main() {
@@ -112,6 +122,27 @@ export default function Main() {
           </WorkList>
         </WorkContainer>
       </WorkSection>
+      <Advantages>
+        <AdvantagesTitle>Наші переваги</AdvantagesTitle>
+        <AdvantagesList>
+          <AdvantagesItem>
+            <AdvantagesLogo src={im8} alt="" />
+            <AdvantagesDeskr>Швидке зарахування коштів</AdvantagesDeskr>
+          </AdvantagesItem>
+          <AdvantagesItem>
+            <AdvantagesLogo src={im9} alt="" />
+            <AdvantagesDeskr>Гнучка система позик від 7 до 30 днів</AdvantagesDeskr>
+          </AdvantagesItem>
+          <AdvantagesItem>
+            <AdvantagesLogo src={im10} alt="" />
+            <AdvantagesDeskr>100% онлайн, без зайвих документів</AdvantagesDeskr>
+          </AdvantagesItem>
+          <AdvantagesItem>
+            <AdvantagesLogo src={im11} alt="" />
+            <AdvantagesDeskr>Без застави майна та поручителів</AdvantagesDeskr>
+          </AdvantagesItem>
+        </AdvantagesList>
+      </Advantages>
     </div>
   );
 }

@@ -152,62 +152,112 @@ export const WorkTitle = styled.h1`
   margin-left: 115px;
 `;
 export const WorkButton = styled.button`
-border-radius: 8px;
-background: #FFF;
-box-shadow: 0px 0px 2px 0px #A6A6DA;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 0px 2px 0px #a6a6da;
 
-color: #57B18A;
-text-align: center;
-font-size: 18px;
-font-family: IBM Plex Sans;
-font-weight: 600;
-line-height: 24px;
-margin-top: 10px;
+  color: #57b18a;
+  text-align: center;
+  font-size: 18px;
+  font-family: IBM Plex Sans;
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 10px;
 `;
 
 export const WorkParagraph = styled.p`
-color: #3F3E42;
+  color: #3f3e42;
 
-font-size: 20px;
-font-family: IBM Plex Sans;
-font-weight: 600;
-line-height: 28px;
-text-align: center;
-padding: 10px;
+  font-size: 20px;
+  font-family: IBM Plex Sans;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+  padding: 10px;
 `;
 
 export const WorkDigit = styled.p`
-color: #6F6FC4;
-font-size: 32px;
-font-family: IBM Plex Sans;
-font-weight: 500;
-line-height: 32px;
+  color: #6f6fc4;
+  font-size: 32px;
+  font-family: IBM Plex Sans;
+  font-weight: 500;
+  line-height: 32px;
 `;
 
 export const WorkList = styled.ul`
-border-radius: 16px;
-background: #FFF;
-box-shadow: 0px 0px 2px 0px #A6A6DA;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 0px 2px 0px #a6a6da;
 
-width: 360px;
-height: 240px;
-
-
+  width: 360px;
+  height: 240px;
 `;
 export const WorkContainer = styled.div`
-gap: 20px;
-display: flex;
-justify-content: center;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
 `;
 
 export const WorkListItemTop = styled.li`
-display: flex;
-justify-content: space-between;
-padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
 `;
 export const WorkListItemBot = styled.li`
-text-align: center;
-`
+  text-align: center;
+`;
 export const WorkSection = styled.div`
-margin: 100px 156px
+  margin: 100px 156px;
+`;
+
+// переваги
+export const Advantages = styled.div`
+  margin: 100px 270px;
+`;
+export const AdvantagesTitle = styled.h1`
+  color: #3f3e42;
+  font-size: 44px;
+  font-family: IBM Plex Serif;
+  font-weight: 600;
+  line-height: 52px;
+  margin-bottom: 32px;
+`;
+export const AdvantagesList = styled.ul`
+  width: 1082px;
+  height: 260px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  box-shadow: rgb(166, 166, 218) 0px 0px 2px 0px;
+  gap: 20px;
+`;
+export const AdvantagesItem = styled.li`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  :not(:last-child):after {
+    content: '';
+    top: 30;
+    right: 0;
+    position: absolute;
+    width: 1px;
+    height: 188px;
+    flex-shrink: 0;
+    background: #e5e5f4;
+  }
+`;
+export const AdvantagesLogo = styled.img`
+  width: 80px;
+  height: 80px;
+  margin-bottom: 30px;
+`;
+export const AdvantagesDeskr = styled.p`
+  color: #3f3e42;
+  font-size: 20px;
+  font-family: IBM Plex Sans;
+  line-height: 28px;
+  width: 250px;
 `;
